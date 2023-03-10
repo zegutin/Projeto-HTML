@@ -177,6 +177,66 @@ p {
 .onde-estamos i{
     margin-right: 5px;
 }
+
+/* newletter */
+
+.newletter{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+
+.newletter h3{
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.newletter p{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.newletter form{
+    width: 100%;
+    float: left;
+    margin-top: 12px;
+}
+
+.newletter form input{
+    width: 40%;
+    margin-right: .5%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    background-color: initial;
+    float: left;
+}
+
+.newletter button{
+    width: 19%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 8px;
+    float: right;
+    cursor: pointer;
+}
+
+/* rodape */
+
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding: 20px 8%;
+}
+
+.rodape p{
+    color: #fff;
+    text-align: center;
+}
+
 /*
 header{
     padding: 5px;
