@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="shortcut icon" href="./images/favicon-education.png" type="image/x-icon">
+
+    <!-- FontAwesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <!-- Use Swiper from CDN link css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Custom style link css  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+    <!-- Header section start -->
+    <header class="header">
+        <a href="home.html" class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Education</span>
+        </a>
+        <nav class="navbar">
+            <div id="close-btn">
+                <i class="fa-solid fa-xmark" title="Close"></i>
+            </div>
+            <a href="home.html">home</a>
+            <a href="courses.html">courses</a>
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="account-btn" class="fa-solid fa-user-large"></div>
+            <div id="menu-btn" class="fa-solid fa-bars"></div>
+        </div>
+    </header>
+    <!-- Header section end -->
+
+    <!-- Account Form section start -->
+    <div class="account-form">
+        <div id="close-account-form" title="Close" class="fa-solid fa-xmark"></div>
+        <div class="buttons">
+            <button class="btn login-btn active">Login</button>
+            <button class="btn register-btn">Register</button>
+        </div>
+        <!-- Form Login -->
+        <form action="" class="active login-form">
+            <h3>Login Form</h3>
+            <input type="email" name="email" id="email" class="input-box" placeholder="abc@gmail.com">
+            <input type="password" name="password" id="password" class="input-box" placeholder="*********">
+            <div class="remember">
+                <input type="checkbox" name="remember-me" id="remember-me">
+                <label for="remember-me">Remember me</label>
+                <a href="#">forgot password?</a>
+            </div>
+            <input type="submit" value="Login now" class="btn">
+        </form>
+        <!-- Form Register -->
+        <form action="" class="register-form">
+            <h3>Register</h3>
+            <input type="email" name="email" id="email" class="input-box" placeholder="abc@gmail.com">
+            <input type="password" name="password" id="password" class="input-box" placeholder="password">
+            <input type="password" name="password" id="password" class="input-box" placeholder="confirm password">
+            <input type="text" name="numberphone" id="numberphone" placeholder="phone" class="input-box">
+            <p>Do you already have an account? <span onclick="handlerLoginHere()">Login here</span></p>
+            <input type="submit" value="Register now" class="btn">
+        </form>
+    </div>
+    <!-- Account Form section end -->
+
+    <!-- Contact section start -->
+    <main>
+        <section class="heading-link">
+            <h3>Contact us</h3>
+            <p><a href="home.html">Home</a> / Contact</p>
+        </section>
+
+        <section class="contact">
+            <div class="box-container">
+                <div class="box">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>opening hours:</h3>
+                    <p>00:01 am to 22:00 pm</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Numberphone:</h3>
+                    <p>+123.456.7890</p>
+                    <p>+094.289.8298</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email:</h3>
+                    <p>thanhnam290596@gmail.com</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h3>Address:</h3>
+                    <p>Ho Chi Minh City, Vietnamese</p>
+                </div>
+            </div>
+
+            <h1 class="heading">Get in touch</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="./images/contact-img.png" alt="">
+                </div>
+                <form action="" class="form-contact">
+                    <h3>send us a messenger</h3>
+                    <input type="text" class="input-box" placeholder="Your name">
+                    <input type="email" name="email" id="email" class="input-box" placeholder="abc@gmail.com">
+                    <input type="text" name="numberphone" id="" class="input-box" placeholder="Your number phone">
+                    <textarea name="messenger" id="messenger" placeholder="Messenger..." cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send messenger" class="btn">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Contact section end -->
+
+    <!-- FAQ section start -->
+    <section class="faq">
+        <h1 class="heading">frequently asked questions</h1>
+
+        <div class="accordion-container">
+            <div class="accordion">
+                <div class="accordion-title">
+                    <h3>how to contact help you!</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="accordion-content">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Deleniti doloremque nobis voluptas obcaecati delectus
+                    suscipit quam quisquam nihil magni, vero nulla eius ipsum rerum omnis? Facilis, earum necessitatibus. 
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-title">
+                    <h3>what is the best career in 2022?</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Odit eaque velit illo illum soluta quis eligendi sapiente, itaque enim accusantium at.
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-title">
+                    <h3>how much fees for web development</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="accordion-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat dolores nulla ipsam quae id provident impedit commodi quis ipsa voluptatibus.
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-title">
+                    <h3>Can i choose my own tutor?</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="accordion-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ex ratione voluptatibus beatae laboriosam, quisquam ut repellat veritatis temporibus neque ad consectetur consequuntur laborum impedit soluta error.
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-title">
+                    <h3>What payment methods are availabe?</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="accordion-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ex ratione voluptatibus beatae laboriosam, quisquam ut repellat veritatis temporibus neque ad consectetur consequuntur laborum impedit soluta error.
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-title">
+                    <h3>Can i have free trial for a month?</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="accordion-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ex ratione voluptatibus beatae laboriosam, quisquam ut repellat veritatis temporibus neque ad consectetur consequuntur laborum impedit soluta error.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ section end -->
+
+    <!-- Logo section start -->
+    <section class="logo-container">
+        <div class="logo-slider swiper">
+            <div class="logo-wrapper swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="./images/partner-logo-1.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="./images/partner-logo-2.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="./images/partner-logo-3.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="./images/partner-logo-4.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="./images/partner-logo-5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Logo section end -->
+
+    <!-- Footer section start -->
+    <footer class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3 class="logo-title"><i class="fa-solid fa-graduation-cap"></i>Education</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolores reiciendis porro.</p>
+                <address>
+                    <i class="fa-solid fa-map"></i>
+                    Address: Distric 6, Ho Chi Minh City.
+                </address>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+0942898298" title="Numberphone">0942898298</a>
+                </div>
+                <div class="email">
+                    <i class="fa-solid fa-at"></i>
+                    <a href="mailto:thanhnam290596@gmail.com" title="Email">thanhnam290596@gmail.com</a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fa-solid fa-caret-right"></i>help center</a>
+                <a href="#"><i class="fa-solid fa-caret-right"></i>ask questions</a>
+                <a href="#"><i class="fa-solid fa-caret-right"></i>send feedback</a>
+                <a href="#"><i class="fa-solid fa-caret-right"></i>private policy</a>
+                <a href="#"><i class="fa-solid fa-caret-right"></i>terms of use</a>
+            </div>
+            <div class="box">
+                <h3>Follow us</h3>
+                <div class="follow-us">
+                    <i class="fa-brands fa-facebook" title="Facebook"></i>
+                    <i class="fa-brands fa-facebook-messenger" title="Messenger"></i>
+                    <i class="fa-brands fa-linkedin" title="Linkedin"></i>
+                    <i class="fa-brands fa-twitter-square" title="Twitter"></i>
+                    <i class="fa-brands fa-google-plus-square" title="Google"></i>
+                </div>
+            </div>
+            <div class="box">
+                <h3>newsletter</h3>
+                <p class="newsletter">subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="email" id="email" placeholder="enter your email" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="creadit-footer">
+            Created on <span>zegutin, April 30, 2023</span>
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+
+    <!-- Use Swiper from CDN script js-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Custom main.js link script -->
+    <script src="./js/main.js" type="text/javascript"></script>
+</body>
+</html>
